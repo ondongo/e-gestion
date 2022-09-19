@@ -1,36 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-    
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-    
-        <title>Gestion de Stock</title>
-    
-        <!-- Icon-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-              
-        
-        <!-- Bootstap -->
-        
-      
-        <!-- Font Nunito -->
-        <link
-            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-            rel="stylesheet">
-    
-        <!-- Css-->
-        <link href="css/bootstrap.css" rel="stylesheet">
-    
-    </head>
-    
-    <body id="page-top">
+
+    <%@include file="header.jsp" %>
     
         <!-- Page Wrapper -->
         <div id="wrapper">
@@ -61,7 +30,7 @@
     
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    FonctionalitÃ©s
+                    Fonctionalités
                 </div>
     
                 <!-- Nav Item - Pages Collapse Menu -->
@@ -108,9 +77,9 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             
-                            <a class="collapse-item" href="buttons.html">Articles composÃ©s
+                            <a class="collapse-item" href="buttons.html">Articles composés
                                </a>
-                            <a class="collapse-item" href="cards.html">Articles fabriquÃ©s</a>
+                            <a class="collapse-item" href="cards.html">Articles fabriqués</a>
                             
                            
     
@@ -130,7 +99,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="vide.html">
                         <i class="fa-solid fa-warehouse"></i>
-                        <span>EntrepÃ´ts</span></a>
+                        <span>Entrepôts</span></a>
                 </li>
     
                 <li class="nav-item">
@@ -161,7 +130,7 @@
                             <h6 class="collapse-header">Dernier(e)s</h6>
                             <a class="collapse-item" href="">Jour(s) </a>
                             <a class="collapse-item" href="">Semaines</a>
-                            <a class="collapse-item" href="">AnnÃ©es</a>
+                            <a class="collapse-item" href="">Années</a>
                             
                         </div>
                     </div>
@@ -314,7 +283,7 @@
                                     </a>
                                     <a class="dropdown-item" href="#">
                                         <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                        ParamÃ¨tres
+                                        Paramètres
                                     </a>
                                   
                                     <div class="dropdown-divider"></div>
@@ -346,25 +315,14 @@
                     <!-- End of Topbar -->
     
                     <!-- Begin Page Content -->
-                    <div class="container-fluid">
-    
-                        <!-- Page Heading -->
-                        <h1 class="h3 mb-4 text-gray-800">Vide Pour l'instant</h1>
-    
-                    </div>
+                   
                     <!-- /.container-fluid -->
     
                 </div>
                 
     
-                <!-- Footer -->
-                <footer class="sticky-footer bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; @Spring by Rmedtech</span>
-                        </div>
-                    </div>
-                </footer>
+              
+    <%@include file="footer.jsp" %>
               
     
             </div>
@@ -380,14 +338,4 @@
     
         
     
-        <!-- Bootstrap JavaScript-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
-    
-        
-        <script src="js/principale.js"></script>
-    
-    </body>
-    
-    </html>
+       
