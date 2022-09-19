@@ -43,7 +43,7 @@
                     <div class="sidebar-brand-icon rotate-n-15">
                         <i class="fa-brands fa-java"></i>
                     </div>
-                    <div class="sidebar-brand-text mx-3">Ges_Stock</div>
+                    <div class="sidebar-brand-text mx-3">Ges_Stocks</div>
                 </a>
     
                 <!-- Divider -->
