@@ -12,6 +12,18 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+
+
+
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.octest.servelets.Add</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>

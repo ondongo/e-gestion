@@ -4,6 +4,14 @@
 
     <%@include file="structure.jsp" %>
 
+
+
+
+
+
+
+    
+
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
