@@ -30,7 +30,7 @@
     
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    Fonctionalités
+                    Fonctionalitï¿½s
                 </div>
     
                 <!-- Nav Item - Pages Collapse Menu -->
@@ -77,9 +77,9 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             
-                            <a class="collapse-item" href="buttons.html">Articles composés
+                            <a class="collapse-item" href="buttons.html">Articles composï¿½s
                                </a>
-                            <a class="collapse-item" href="cards.html">Articles fabriqués</a>
+                            <a class="collapse-item" href="cards.html">Articles fabriquï¿½s</a>
                             
                            
     
@@ -99,7 +99,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="vide.html">
                         <i class="fa-solid fa-warehouse"></i>
-                        <span>Entrepôts</span></a>
+                        <span>Entrepï¿½ts</span></a>
                 </li>
     
                 <li class="nav-item">
@@ -130,7 +130,7 @@
                             <h6 class="collapse-header">Dernier(e)s</h6>
                             <a class="collapse-item" href="">Jour(s) </a>
                             <a class="collapse-item" href="">Semaines</a>
-                            <a class="collapse-item" href="">Années</a>
+                            <a class="collapse-item" href="">Annï¿½es</a>
                             
                         </div>
                     </div>
@@ -283,7 +283,7 @@
                                     </a>
                                     <a class="dropdown-item" href="#">
                                         <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                        Paramètres
+                                        Paramï¿½tres
                                     </a>
                                   
                                     <div class="dropdown-divider"></div>
@@ -322,20 +322,15 @@
                 
     
               
-    <%@include file="footer.jsp" %>
+    
               
     
             </div>
          
     
         </div>
-        <!-- End of Page Wrapper -->
-    
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-        </a>
+
     
         
-    
+    <%@include file="footer.jsp" %>
        

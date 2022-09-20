@@ -8,13 +8,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Excel -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tableau de bord</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
-                            <i class="fa-solid fa-file-excel"></i> Mise à jour avec Excel</a>
-                    </div> 
-
+                
                     <!--  Row -->
                     <div class="row">
 
@@ -189,28 +183,11 @@
                             
 
                         </div>
-                    </div>
-
-                </div>
+                  
+               
                 <!-- /.container-fluid -->
-</div>
 
 
-            </div>
-            <!-- End of Main Content -->
-
-         
-
-        </div>
-      
-
-    </div>
-    <!--fin Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
 
  
 

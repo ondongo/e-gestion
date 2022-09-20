@@ -26,7 +26,7 @@
             rel="stylesheet">
     
         <!-- Css-->
-        <link href="views/css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
     
     </head>
     
