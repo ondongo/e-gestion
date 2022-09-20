@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 
-    <%@include file="structure.jsp" %>
+    <%@ include file="structure.jsp" %>
 
 
 

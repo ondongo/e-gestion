@@ -1,8 +1,8 @@
 package com.octest.beans;
 
-public abstract class Utilisateurs {
+public abstract class Utilisateur {
 
-	public Utilisateurs() {
+	public Utilisateur() {
 		// TODO Auto-generated constructor stub
 	}
 
