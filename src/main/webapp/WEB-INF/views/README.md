@@ -1,2 +1,6 @@
-# Gestion-Stock
-Application de Gestion de stocks
+# e-Gestion 
+
+	Application de Gestion de stocks
+
+### Module 1  
+

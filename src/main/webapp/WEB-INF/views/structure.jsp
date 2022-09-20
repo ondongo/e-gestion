@@ -31,6 +31,10 @@
     </head>
     
     <body id="page-top">
+
+
+    <%@include file="header.jsp" %>
+
     
         <!-- Page Wrapper -->
         <div id="wrapper">
@@ -61,7 +65,7 @@
     
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    Fonctionalités
+                    Fonctionalit�s
                 </div>
     
                 <!-- Nav Item - Pages Collapse Menu -->
@@ -108,9 +112,9 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             
-                            <a class="collapse-item" href="buttons.html">Articles composés
+                            <a class="collapse-item" href="buttons.html">Articles compos�s
                                </a>
-                            <a class="collapse-item" href="cards.html">Articles fabriqués</a>
+                            <a class="collapse-item" href="cards.html">Articles fabriqu�s</a>
                             
                            
     
@@ -130,7 +134,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="vide.html">
                         <i class="fa-solid fa-warehouse"></i>
-                        <span>Entrepôts</span></a>
+                        <span>Entrep�ts</span></a>
                 </li>
     
                 <li class="nav-item">
@@ -161,7 +165,7 @@
                             <h6 class="collapse-header">Dernier(e)s</h6>
                             <a class="collapse-item" href="">Jour(s) </a>
                             <a class="collapse-item" href="">Semaines</a>
-                            <a class="collapse-item" href="">Années</a>
+                            <a class="collapse-item" href="">Ann�es</a>
                             
                         </div>
                     </div>
@@ -314,7 +318,7 @@
                                     </a>
                                     <a class="dropdown-item" href="#">
                                         <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                        Paramètres
+                                        Param�tres
                                     </a>
                                   
                                     <div class="dropdown-divider"></div>
@@ -346,25 +350,14 @@
                     <!-- End of Topbar -->
     
                     <!-- Begin Page Content -->
-                    <div class="container-fluid">
-    
-                        <!-- Page Heading -->
-                        <h1 class="h3 mb-4 text-gray-800">Vide Pour l'instant</h1>
-    
-                    </div>
+                   
                     <!-- /.container-fluid -->
     
                 </div>
                 
     
-                <!-- Footer -->
-                <footer class="sticky-footer bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; @Spring by Rmedtech</span>
-                        </div>
-                    </div>
-                </footer>
+              
+    <%@include file="footer.jsp" %>
               
     
             </div>
@@ -380,14 +373,4 @@
     
         
     
-        <!-- Bootstrap JavaScript-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
-    
-        
-        <script src="js/principale.js"></script>
-    
-    </body>
-    
-    </html>
+       
