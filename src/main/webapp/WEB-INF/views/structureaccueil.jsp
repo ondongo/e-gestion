@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
+  
+
+
+    <%@include file="header.jsp" %>
 
     
      <!-- Page Wrapper -->
@@ -273,7 +277,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Gloire ODG</span>
                                 <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                    src="img/undraw_profile_2.svg">
                             </a>
                             <!--  Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -298,7 +302,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
                     </ul>
 
                 </nav>
                 <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Excel -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Tableau de bord</h1>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+                            <i class="fa-solid fa-file-excel"></i> Mise à jour avec Excel</a>
+                    </div> 
+
+                   
+
+    
+        
+    <%@include file="footer.jsp" %>
+       

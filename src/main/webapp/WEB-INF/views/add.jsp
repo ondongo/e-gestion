@@ -6,13 +6,7 @@
 
 
 
-
-
-
-
-    
-
-                <!-- Begin Page Content -->
+<!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <form >
@@ -194,6 +188,7 @@
                 </div>
                 <!-- /.container-fluid -->
 
+            </div>
            
 
            

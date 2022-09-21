@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 
-    <%@include file="structure.jsp" %>
+    <%@include file="structureaccueil.jsp" %>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
