@@ -81,7 +81,7 @@
                     <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                              <h6 class="collapse-header">Administrations</h6> 
-                            <a class="collapse-item" href="add.html">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                            <a class="collapse-item" href="add.jsp"><c:redirect url="./add.jsp">Ajouter</c:redirect> <i class="fa-sharp fa-solid fa-cart-plus"></i>
                                </a>
                             <a class="collapse-item" href="vide.html">Modifier</a>
                             <a class="collapse-item" href="vide.html">Supprimer <i class="fa-solid fa-trash"></i></a>

@@ -5,7 +5,7 @@ import java.sql.Date;
 public class Article {
 
 	
-	    private static int nbre;
+	    private int nbre;
 	    private String categorie ;
 	    private String libelle ;
 	    private int idRef ;
@@ -126,8 +126,7 @@ public class Article {
 	        this.nbreEtiquette = nbreEtiquette;
 
 	        // Id autoincrement
-	        nbre++;
-	        idRef=nbre;
+	        
 	    }
 
 	   
