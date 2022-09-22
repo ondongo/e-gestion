@@ -48,16 +48,9 @@ public class ArticleDaoImpl implements ArticleDAO{
 
 	@Override
 	public Boolean insert(Article t) throws SQLException {
-		private Boolean isInserted = null ;
 		
-		String sql = "INSERT INTO article (?,?,?,?,?,?,?,?,?,?) VALUES (?,?,?,?,?,?,?,?,?,?)";
-		PreparedStatement ps = conn.prepareStatement(sql);
-		ResultSet rs = ps.executeQuery();
 		
-		rs ? isInserted = true : isInserted = false ;
-			
 		
-		return isInserted;
 	}
 
 	@Override

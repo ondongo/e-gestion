@@ -5,7 +5,7 @@ import java.sql.Date;
 public class Article {
 	
 	    private int nbre;
-	    private String categorie ;
+	    private Categorie categorie ;
 	    private String libelle ;
 	    private int idRef ;
 	    
@@ -22,7 +22,7 @@ public class Article {
 	    
 	 // Surchage
 
-	    public Article(String categorie, String libelle, int prixLogistique, int prixVente, Date delaiControle,
+	    public Article(Categorie categorie, String libelle, int prixLogistique, int prixVente, Date delaiControle,
 	            int periodiciteControle, Date prochainControle, Date dernierControle, int nbreEtiquette) {
 	        this.categorie = categorie;
 	        this.libelle = libelle;
@@ -39,8 +39,8 @@ public class Article {
 	    }
 
 
-	    public String getCategorie() {return categorie;}
-	    public void setCategorie(String categorie) {this.categorie = categorie;}
+	    public Categorie getCategorie() {return categorie;}
+	    public void setCategorie(Categorie categorie) {this.categorie = categorie;}
 
 		public String getLibelle() {return libelle;}
 		public void setLibelle(String libelle) {this.libelle = libelle;}
