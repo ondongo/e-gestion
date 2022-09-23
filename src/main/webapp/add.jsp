@@ -139,27 +139,10 @@
                             min="1" max="100"></div>
                           </div>
 
-                                  <div class="col-md-4 mb-3">
-                                    <label for="validationDefault02">Last name</label>
-                                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
-                                  </div>
-                                  <div class="col-md-4 mb-3">
-                                    <label for="validationDefaultUsername">Username</label>
-                                    <div class="input-group">
-                                      <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                      </div>
-                                      <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                                    </div>
-                                  </div>
+                            
 
 
-
-
-                                  <div class="col-md-4 mb-3">
-                                    <label for="validationDefault01">First name</label>
-                                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
-                                  </div>
+                                 
                                  <div class="input-group col-md-4 mb-3">
   <button type="button" class="btn btn-outline-secondary">Periodicité</button>
   <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
