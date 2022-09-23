@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 
-    <%@ include file="structure.jsp" %>
+    <%@ include file="WEB-INF/views/structure.jsp" %>
 
 
 
@@ -196,7 +196,7 @@
 
        
    
-
+ <%@include file="WEB-INF/views/footer.jsp" %>
     
 
   

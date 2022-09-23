@@ -1,8 +1,12 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
 
     <%@include file="structureaccueil.jsp" %>
+
+<%@include file="structure.jsp" %>
+
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -38,7 +42,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Bénéfices</div>
+                                                B�n�fices</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">10 Milliard</div>
                                         </div>
                                         <div class="col-auto">
@@ -122,7 +126,7 @@
                         <div class="dropdown-header">Fitre</div>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Mois</a>
-                        <a class="dropdown-item" href="#">Année</a>
+                        <a class="dropdown-item" href="#">Ann�e</a>
                         <div class="dropdown-divider"></div>
                        
                     </div>
@@ -130,8 +134,8 @@
             </div>
             <!-- Card Body -->
             <div class="card-body">
-                <div class="">
-                   
+                <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
                 </div>
             </div>
         </div>
@@ -162,9 +166,11 @@
             </div>
             <!-- Card Body -->
             <div class="card-body">
-                <div class="">
-                  
-                </div>
+                <div class="chart-pie pt-4 pb-2">
+                    <canvas id="myPieChart"></canvas>
+
+
+
                 <div class="mt-4 text-center small">
                     <span class="mr-2">
                         <i class="fas fa-circle text-primary"></i> Brute
@@ -178,12 +184,13 @@
         </div>
     </div>
 </div>
+</div>
 
 
                             
 
-                        </div>
-                  
+                       
+
                
                 <!-- /.container-fluid -->
 
@@ -191,7 +198,7 @@
 
  
 
-
+ <%@include file="footer.jsp" %>
 
 
 
