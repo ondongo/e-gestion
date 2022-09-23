@@ -15,7 +15,7 @@
 
 
 
-    <!-- End of Page Wrapper -->
+
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -34,6 +34,13 @@
     <!-- graphe -->
      <script src="js/demo/chart-area-demo.js"></script>
      <script src="js/demo/chart-pie-demo.js"></script>
+
+     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+ 
+     <!-- table dynamique -->
+     <script src="js/demo/datatables-demo.js"></script>
+ 
     
     <script src="js/principale.js"></script>
 

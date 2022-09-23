@@ -6,7 +6,7 @@
     <%@include file="header.jsp" %>
 
     
-     <!-- Page Wrapper -->
+     <!-- id  Wrapper -->
     <div id="wrapper">
 
         <!-- Bar en bleu -->
