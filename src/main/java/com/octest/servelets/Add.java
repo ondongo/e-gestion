@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
-// @WebServlet(name = "Add.java", urlPatterns = { "/Add" })
+@WebServlet(name = "Add.java", urlPatterns = { "/Add" })
 
 public class Add extends HttpServlet {
 	private static final long serialVersionUID = 1L;

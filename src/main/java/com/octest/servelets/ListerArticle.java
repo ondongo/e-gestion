@@ -1,23 +1,27 @@
 package com.octest.servelets;
 
 import java.io.IOException;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+
+
 /**
- * Servlet implementation class Liste
+ * Servlet implementation class ListerArticle
  */
-@WebServlet("/Liste")
-public class Liste extends HttpServlet {
+@WebServlet(name = "ListerArticle.java", urlPatterns = { "/ListerArticle" })
+
+public class ListerArticle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Liste() {
+    public ListerArticle() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +31,7 @@ public class Liste extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher("/WEB-INF/views/listeArticle.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/views/liste.jsp").forward(request, response);
 	}
 
 	/**
