@@ -29,5 +29,14 @@ version="5.0">
         <url-pattern>/Add</url-pattern>
     </servlet-mapping>
 
+   <servlet>
+        <servlet-name>Liste</servlet-name>
+        <servlet-class>com.octest.servelets.Liste</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Liste</servlet-name>
+        <url-pattern>/Liste</url-pattern>
+    </servlet-mapping>
+
    
 </web-app>

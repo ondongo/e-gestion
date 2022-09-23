@@ -50,6 +50,8 @@
                 </a>
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
+                     <h6 class="collapse-header">Voir</h6> 
+                     <a class="collapse-item" href="add.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i>
                          <h6 class="collapse-header">Administrations</h6> 
                         <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
