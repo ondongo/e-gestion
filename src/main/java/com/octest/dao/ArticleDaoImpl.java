@@ -6,6 +6,7 @@ import java.util.List;
 import java.sql.Connection;
 
 import com.octest.beans.Article;
+import com.octest.beans.Categorie;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -16,14 +17,24 @@ public class ArticleDaoImpl implements ArticleDAO{
 	@Override
 	public Article get(String id) throws SQLException {
 		
-		Article article = new Article();
+		Article article = null ;
 		
 		String sql = "SELECT * FROM egestion.article WHERE idref = ? ";
 		PreparedStatement ps = conn.prepareStatement(sql);
 		ResultSet rs = ps.executeQuery();
 		
-		if(rs.next()) {
-			// Stocker les données dans la variable article
+		if(rs.first()) {
+			article = new Article(
+					rs.getString("Categorie"),
+					rs.getString(""),
+					rs.getInt(""),
+					rs.getInt(""),
+					rs.getDate(""),
+					rs.getInt(""),
+					rs.getDate(""),
+					rs.getDate(""),
+					rs.getInt("")
+					);
 			
 		} else {
 			// Dire que l'article recherche n'existe pas
