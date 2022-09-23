@@ -25,7 +25,7 @@
 
             <!--  Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Tableau de bord</span></a>
             </li>
@@ -51,15 +51,15 @@
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                          <h6 class="collapse-header">Administrations</h6> 
-                        <a class="collapse-item" href="add.html">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                        <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
-                        <a class="collapse-item" href="vide.html">Modifier</a>
-                        <a class="collapse-item" href="vide.html">Supprimer <i class="fa-solid fa-trash"></i></a>
+                        <a class="collapse-item" href="vide.jsp">Modifier</a>
+                        <a class="collapse-item" href="vide.jsp">Supprimer <i class="fa-solid fa-trash"></i></a>
                 
                           <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Liaisons </h6>
-                        <a class="collapse-item" href="vide.html">Categorie</a>
-                        <a class="collapse-item" href="vide.html">Stockage</a> -->
+                        <a class="collapse-item" href="vide.jsp">Categorie</a>
+                        <a class="collapse-item" href="vide.jsp">Stockage</a> -->
                        
 
                     
@@ -333,5 +333,5 @@
 
     
         
-    <%@include file="footer.jsp" %>
+ 
        

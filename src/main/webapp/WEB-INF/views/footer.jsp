@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
@@ -13,17 +13,8 @@
             </footer>
           
 
-=======
- <!-- Footer -->
- <footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; @Spring by Rmedtech</span>
->>>>>>> 84869224ffd06f4cefd34a501134fcbd5f249caa
-        </div>
-     
 
-    </div>
+
     <!-- End of Page Wrapper -->
 
     <!-- Scroll to Top Button-->

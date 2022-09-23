@@ -7,7 +7,7 @@
 
 
 <!-- Begin Page Content -->
-                <div class="container-fluid">
+               
 
                     <form >
                         <div class="form-row align-items-center">
@@ -187,8 +187,8 @@
 
                 </div>
                 <!-- /.container-fluid -->
-
-            </div>
+              </div>
+          
            
 
            
