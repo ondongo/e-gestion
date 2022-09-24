@@ -91,23 +91,21 @@
                             </tbody>
                           </table>
 
-                          <form>
+                          
                             <div class="form-row">
                               <div class="col-md-4 mb-3">
                                 <label for="validationDefault01">Coefficient logistique</label>
-                                <input type="text" class="form-control" id="validationDefault01" placeholder="coefficient logistique" value="Mark" required>
+                                <input type="text" class="form-control" id="validationDefault01" placeholder="coefficient logistique" value="" required>
                               </div>
                               <div class="col-md-4 mb-3">
                                 <label for="validationDefault02">prix logistique</label>
-                                <input type="text" class="form-control" id="validationDefault02" placeholder="prix logistique" value="Otto" required>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="prix logistique" value="" required>
                               </div>
                               <div class="col-md-4 mb-3">
                                 <label for="validationDefaultUsername">Coefficient de vente</label>
                                 <div class="input-group">
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                  </div>
-                                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                  
+                                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Coefficient de vente" aria-describedby="inputGroupPrepend2" required>
                                 </div>
                               </div>
                            
@@ -125,15 +123,13 @@
                                 <div class="col-md-4 mb-3">
                                   <label for="validationDefaultUsername">Taux TVA</label>
                                   <div class="input-group">
-                                    <div class="input-group-prepend">
-                                      <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                    
+                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="TVA" aria-describedby="inputGroupPrepend2" required>
                                   </div>
                                 </div>
 
-								  <div class="form-group col-md-4 mb-3">
-                            <label for="customRange3">Delai de control</label>
+								  <div class="col-md-4 mb-3">
+                            <label for="customRange3">Nbre d'étiquettes</label>
                             <div class="col-sm-10">
                             <input type="number" id="" name=""
                             min="1" max="100"></div>
@@ -141,29 +137,22 @@
 
                             
 
-
-                                 
-                                 <div class="input-group col-md-4 mb-3">
-  <button type="button" class="btn btn-outline-secondary">Periodicité</button>
-  <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#"></a></li>
-    <li><a class="dropdown-item" href="#"></a></li>
- 
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#"></a></li>
-  </ul>
-  <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
-</div>
+							
                                   <div class="col-md-4 mb-3">
-                                    <label for="validationDefaultUsername">Username</label>
+                                    <label for="validationDefaultUsername">Control</label>
                                     <div class="input-group">
-                                      <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                      </div>
-                                      <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                      
+                                      <input type="date" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                    </div>
+                                  </div>
+							
+                                 
+     
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationDefaultUsername">Prochain control</label>
+                                    <div class="input-group">
+                                      
+                                      <input type="date" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
                                     </div>
                                   </div>
 
@@ -172,8 +161,7 @@
 
                     
                             
-                            
-                          </form>
+                        
                         
                         <button type="submit" class="btn btn-success">Soumettre</button>
                       </form>

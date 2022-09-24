@@ -23,8 +23,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Produits</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">En Stock</div>
+                                                Produit vedette</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Galaxy Z-flip</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fa-sharp fa-solid fa-box-open fa-2x text-gray-300"></i>
@@ -42,11 +42,13 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                B�n�fices</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">10 Milliard</div>
+                                               Quantité En Stock</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">1OO</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fa-solid fa-sack-dollar fa-2x text-gray-300"></i>
+                                            <!-- <i class="fa-solid fa-sack-dollar fa-2x text-gray-300"></i> -->
+                                            
+<i class="fa-solid fa-arrow-rotate-right fa-2x text-gray-300"></i>
                                            
                                         </div>
                                     </div>
@@ -60,7 +62,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Demande
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Demande sur marché
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
@@ -90,11 +92,12 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                testnash</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">testnash</div>
+                                                Commande</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">3</div>
                                         </div>
                                         <div class="col-auto">
                                             <!-- <i class="fas fa-comments fa-2x text-gray-300"></i> -->
+                                            <i class="fa-solid fa-cart-shopping fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
