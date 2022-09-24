@@ -18,26 +18,27 @@ public class ArticleDaoImpl implements ArticleDAO{
 	public Article get(String id) throws SQLException {
 		
 		Article article = null ;
-		
-		String sql = "SELECT * FROM egestion.article WHERE idref = ? ";
-		PreparedStatement ps = conn.prepareStatement(sql);
-		ResultSet rs = ps.executeQuery();
-		
-		if(rs.first()) {
-			article = new Article(
-					rs.getString("Categorie"),
-					rs.getString(""),
-					rs.getInt(""),
-					rs.getInt(""),
-					rs.getDate(""),
-					rs.getInt(""),
-					rs.getDate(""),
-					rs.getDate(""),
-					rs.getInt("")
-					);
+		try {
 			
-		} else {
-			// Dire que l'article recherche n'existe pas
+			String sql = "SELECT * FROM egestion.article WHERE idref = ? ";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			
+			if(rs.first()) {
+				article = new Article(
+						Categorie.valueOf(rs.getString("categorie")),
+						rs.getString("libelle"),
+						rs.getInt("prixlog"),
+						rs.getInt("prixven"),
+						rs.getDate("delaicontrole"),
+						rs.getInt("pcontrole"),
+						rs.getDate("prochaincontrole"),
+						rs.getDate("derniercontrole"),
+						rs.getInt("nbetiquette")
+						);	
+			}
+		} catch(SQLException e) {
+			e.printStackTrace();
 		}
 		
 		return article;
