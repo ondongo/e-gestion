@@ -22,6 +22,7 @@ public class ArticleDaoImpl implements ArticleDAO{
 			
 			String sql = "SELECT * FROM egestion.article WHERE idref = ? ";
 			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, id);
 			ResultSet rs = ps.executeQuery();
 			
 			if(rs.first()) {
@@ -46,35 +47,91 @@ public class ArticleDaoImpl implements ArticleDAO{
 
 	@Override
 	public List<Article> getAll() throws SQLException {
+		
 		List<Article> articles = new ArrayList<Article>();
 		
-		String sql = "SELECT * FROM egestion.article";
-		PreparedStatement ps = conn.prepareStatement(sql);
-		ResultSet rs = ps.executeQuery();
-		
-		while(rs.next()) {
+		try {
+			String sql = "SELECT * FROM egestion.article";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
 			
+			while(rs.next()) {
+				
+			}
+		} catch(SQLException e) {
+			e.printStackTrace();
 		}
+		
 		return articles;
 	}
 
 	@Override
 	public Boolean insert(Article t) throws SQLException {
+		Boolean isInserted = false ;
 		
+		try {
+			
+			String sql = "insert into article () values (?,?,?,?,?,?,?,?,?)";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(0, "/* Un bon bail*/");
+			// Refaire la même chose pour le reste des codes
+			
+			int result = ps.executeUpdate();
+			
+			if(result != 0)
+				isInserted = true ;
+			
+		} catch(SQLException e) {
+			e.printStackTrace();
+		}
 		
+		return isInserted ;
 		
 	}
 
 	@Override
 	public Boolean update(Article t) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Boolean isUpdated = false ;
+		
+		try {
+			String sql = "Update egestion.article set ? where ";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			
+			int result = ps.executeUpdate();
+			if(result == 0) {
+				//DO SOMETHING
+			} else {
+				 // DO THE OPPOSITE
+			}
+			
+		} catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return isUpdated;
 	}
 
 	@Override
 	public Boolean delete(Article t) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Boolean isDeleted = false ;
+		
+		try {
+			String sql = "";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			// Remplacer les ? par leur valeur
+			
+			int result = ps.executeUpdate();
+			
+			if(result == 1) 
+				isDeleted = true ; 
+			
+		} catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return isDeleted;
 	}
 
 }

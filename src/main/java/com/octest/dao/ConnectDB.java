@@ -17,7 +17,9 @@ public class ConnectDB {
                 Class.forName("org.postgresql.Driver");
                 conn = DriverManager.getConnection(URL, USER, PASSWORD);
                 System.out.println("Connexion au serveur réussie");
-                // Renvoie au niveau de la variable "conn" la connexion à la BD
+
+                // conn.setAutoCommit(false); -- permet de parametrer la validation automatique des requetes au niveau de la BD
+            
             } catch (SQLException | ClassNotFoundException e){
             	e.printStackTrace();
                 System.err.println(" Connexion à la base de données échouée : "+e.getMessage());
