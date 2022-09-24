@@ -1,50 +1,48 @@
- <!-- Footer -->
- <footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; @Spring by Rmedtech</span>
-        </div>
-    </div>
-</footer>
-<!-- End  Footer -->
 
-</div>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 
-
-</div>
-<!--fin Page Wrapper -->
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top">
-<i class="fas fa-angle-up"></i>
-</a>
+    
+    
+      <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; @Spring by Rmedtech</span>
+                    </div>
+                </div>
+            </footer>
+          
 
 
 
 
 
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
+    
 
+    <!-- Bootstrap JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+     <!-- Graphe -->
+     <script src="vendor/chart.js/Chart.min.js"></script>
 
+    <!-- graphe -->
+     <script src="js/demo/chart-area-demo.js"></script>
+     <script src="js/demo/chart-pie-demo.js"></script>
 
-
-
-
-
-
-<!-- fichier Bootstrap  JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
-
-
-
-<!-- Script Principale-->
-<script src="js/principale.js"></script>
-
-
-
-
+     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+ 
+     <!-- table dynamique -->
+     <script src="js/demo/datatables-demo.js"></script>
+ 
+    
+    <script src="js/principale.js"></script>
 
 </body>
 

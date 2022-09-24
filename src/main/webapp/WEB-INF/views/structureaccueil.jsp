@@ -6,7 +6,7 @@
     <%@include file="header.jsp" %>
 
     
-     <!-- Page Wrapper -->
+     <!-- id  Wrapper -->
     <div id="wrapper">
 
         <!-- Bar en bleu -->
@@ -25,7 +25,7 @@
 
             <!--  Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="/e-gestion/">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Tableau de bord</span></a>
             </li>
@@ -50,19 +50,18 @@
                 </a>
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Voir</h6> 
-                     <a class="collapse-item" href="liste.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i>
-                           </a>
+                     <h6 class="collapse-header">Voir</h6> 
+                     <a class="collapse-item" href="add.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i></a>
                          <h6 class="collapse-header">Administrations</h6> 
                         <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
-                        <a class="collapse-item" href="vide.html">Modifier</a>
-                        <a class="collapse-item" href="vide.html">Supprimer <i class="fa-solid fa-trash"></i></a>
+                        <a class="collapse-item" href="vide.jsp">Modifier</a>
+                        <a class="collapse-item" href="vide.jsp">Supprimer <i class="fa-solid fa-trash"></i></a>
                 
                           <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Liaisons </h6>
-                        <a class="collapse-item" href="vide.html">Categorie</a>
-                        <a class="collapse-item" href="vide.html">Stockage</a> 
+                        <a class="collapse-item" href="vide.jsp">Categorie</a>
+                        <a class="collapse-item" href="vide.jsp">Stockage</a> -->
                        
 
                     
@@ -320,10 +319,18 @@
                     </ul>
 
                 </nav>
-              
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-            
+                    <!-- Excel -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Tableau de bord</h1>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+                            <i class="fa-solid fa-file-excel"></i> Mise à jour avec Excel</a>
+                    </div> 
+
                    
 
     
