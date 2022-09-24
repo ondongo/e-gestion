@@ -6,7 +6,7 @@
     <%@include file="header.jsp" %>
 
     
-     <!-- id  Wrapper -->
+     <!--   Wrapper -->
     <div id="wrapper">
 
         <!-- Bar en bleu -->
@@ -43,7 +43,7 @@
            
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="tables.html" data-toggle="collapse" data-target="#collapseArticle"
+                <a class="nav-link collapsed" href="tables.jsp" data-toggle="collapse" data-target="#collapseArticle"
                     aria-expanded="true" aria-controls="collapseArticle">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Articles</span>
@@ -51,7 +51,7 @@
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                      <h6 class="collapse-header">Voir</h6> 
-                     <a class="collapse-item" href="add.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i></a>
+                     <a class="collapse-item" href="liste.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i></a>
                          <h6 class="collapse-header">Administrations</h6> 
                         <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
@@ -61,7 +61,7 @@
                           <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Liaisons </h6>
                         <a class="collapse-item" href="vide.jsp">Categorie</a>
-                        <a class="collapse-item" href="vide.jsp">Stockage</a> -->
+                        <a class="collapse-item" href="vide.jsp">Stockage</a> 
                        
 
                     
@@ -84,9 +84,9 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="buttons.html">Articles composés
+                        <a class="collapse-item" href="vide.jsp">Articles composés
                            </a>
-                        <a class="collapse-item" href="cards.html">Articles fabriqués</a>
+                        <a class="collapse-item" href="vide.jsp">Articles fabriqués</a>
                         
                        
 
@@ -104,13 +104,13 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="vide.html">
+                <a class="nav-link" href="vide.jsp">
                     <i class="fa-solid fa-warehouse"></i>
                     <span>Entrepôts</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="vide.html">
+                <a class="nav-link" href="vide.jsp">
                     <i class="fa-solid fa-truck-field"></i>
                     <span>Fournisseurs</span></a>
             </li>
@@ -145,7 +145,7 @@
 
             <!-- Nav Item - Excel-->
             <li class="nav-item">
-                <a class="nav-link" href="vide.html">
+                <a class="nav-link" href="vide.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Mise a jour avec Excel</span></a>
             </li>
@@ -168,7 +168,6 @@
 
 
 
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -187,7 +186,7 @@
                     <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Rechercher..."
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Rechercher l'article..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-success" type="button">
@@ -277,7 +276,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Gloire ODG</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Moustapha/Gloire</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile_2.svg">
                             </a>
@@ -322,6 +321,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
+                
                 <div class="container-fluid">
 
                     <!-- Excel -->
