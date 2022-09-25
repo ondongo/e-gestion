@@ -45,12 +45,12 @@ version="5.0">
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 
-	<!-- <jsp-config>
+	<jsp-config>
 		<jsp-property-group>
 	      <url-pattern>*.jsp</url-pattern>
 	      <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
 	    </jsp-property-group>
-	</jsp-config> -->
+	</jsp-config> 
 	
     <servlet>
         <servlet-name>Add</servlet-name>
