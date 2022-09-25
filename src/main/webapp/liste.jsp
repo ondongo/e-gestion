@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
     <%@ include file="WEB-INF/views/structure.jsp" %>
@@ -40,40 +41,39 @@
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>Nom</th>
-                                            <th >Reference</th>
+                                            <th>libelle</th>
+                                            <th >prixlog</th>
                                           
-                                            <th >Devise</th>
-                                            <th >Stock</th>
-                                            <th>Unité</th>
-                                            <th >Prix d'achat</th>
+                                            <th >prixven</th>
+                                            <th >delaicontrole</th>
+                                            <th>pcontrole</th>
+                                            <th >prochaincontrole</th>
+                                            <th >derniercontrole</th>
+                                            <th >nbetiquette</th>
+                                            <th >categorie</th>
+                                            
                                         </tr>
+					
                                     </tfoot>
                                     <tbody>
+                                         <c:foreach var="article" items="${ articles }"> 
                                         <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                      
+                                            <td>
+                                            
+                                           <c:out value="${ article.libelle }" />
+                                            </td>
+                                            <td><c:out value="${ article.prixlog }" /></td>
+                                            <td><c:out value="${ article.prixven}" /></td>
+                                            <td><c:out value="${ article.delaicontrole }" /></td>
+                                            <td><c:out value="${ article.pcontrole }" /></td>
+                                            <td><c:out value="${ article.prochaincontrole }" /></td>
+                                            <td><c:out value="${ article.derniercontrole }" /></td>
+                                            <td><c:out value="${ article.nbetiquette }" /></td>
+                                            <td><c:out value="${ article.categorie }" /></td>
                                         </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
+                                       
+                                        </c:forEach>
                                        
                                        
                                         
