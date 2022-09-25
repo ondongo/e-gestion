@@ -55,8 +55,8 @@
                          <h6 class="collapse-header">Administrations</h6> 
                         <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
-                        <a class="collapse-item" href="vide.jsp">Modifier</a>
-                        <a class="collapse-item" href="vide.jsp">Supprimer <i class="fa-solid fa-trash"></i></a>
+                        <a class="collapse-item" href="edit.jsp">Modifier</a>
+                        <a class="collapse-item" href="supprimer.jsp">Supprimer <i class="fa-solid fa-trash"></i></a>
                 
                           <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Liaisons </h6>
