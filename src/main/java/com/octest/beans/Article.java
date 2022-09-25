@@ -4,10 +4,9 @@ import java.sql.Date;
 
 public class Article {
 	
-	    private int nbre;
 	    private Categorie categorie ;
 	    private String libelle ;
-	    private int idRef ;
+	    private String idRef ;
 	    
 		private int prixLogistique ;
 	    private int prixVente ;
@@ -19,8 +18,6 @@ public class Article {
 
 	 // Constructeur par défaut
 	    public Article(){}
-	    
-	 // Surchage
 
 	    public Article(Categorie categorie, String libelle, int prixLogistique, int prixVente, Date delaiControle,
 	            int periodiciteControle, Date prochainControle, Date dernierControle, int nbreEtiquette) {
@@ -33,8 +30,6 @@ public class Article {
 	        this.prochainControle = prochainControle;
 	        this.dernierControle = dernierControle;
 	        this.nbreEtiquette = nbreEtiquette;
-
-	        // Id autoincrement
 	        
 	    }
 
@@ -45,8 +40,8 @@ public class Article {
 		public String getLibelle() {return libelle;}
 		public void setLibelle(String libelle) {this.libelle = libelle;}
 		
-		public int getIdRef() {return idRef;}
-		public void setIdRef(int idRef) {this.idRef = idRef;}
+		public String getIdRef() {return idRef;}
+		public void setIdRef(String idRef) {this.idRef = idRef;}
 
 		public int getPrixLogistique() {return prixLogistique;}
 		public void setPrixLogistique(int prixLogistique) {this.prixLogistique = prixLogistique;}

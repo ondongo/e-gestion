@@ -22,7 +22,7 @@ public class ConnectDB {
             
             } catch (SQLException | ClassNotFoundException e){
             	e.printStackTrace();
-                System.err.println(" Connexion à la base de données échouée : "+e.getMessage());
+                System.err.println(e.getClass().getName()+": "+e.getMessage());
             }
         }
         return conn ;
