@@ -41,7 +41,7 @@
 
 
                         <div class="form-group">
-                          <label for="inputAddress2">Reference</label>
+                          <label for="inputAddress2">References</label>
                           <input type="text" class="form-control" id="" placeholder="SIvb">
                         </div>
                         
