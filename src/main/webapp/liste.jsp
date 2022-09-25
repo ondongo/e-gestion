@@ -56,21 +56,21 @@
 					
                                     </tfoot>
                                     <tbody>
-                                         <c:forEach var="listeArticles" items="${ articles }"> 
+                                         <c:forEach items="${ listeArticles }" var="article" > 
                                         <tr>
                                       
                                             <td>
                                             
-                                           <c:out value="${ listeArticles.libelle }" />
+                                           <c:out value="${  article.libelle }" />
                                             </td>
-                                            <td><c:out value="${ listeArticles.prixlog }" /></td>
-                                            <td><c:out value="${ listeArticles.prixven}" /></td>
-                                            <td><c:out value="${ listeArticles.delaicontrole }" /></td>
-                                            <td><c:out value="${ listeArticles.pcontrole }" /></td>
-                                            <td><c:out value="${ listeArticles.prochaincontrole }" /></td>
-                                            <td><c:out value="${ listeArticles.derniercontrole }" /></td>
-                                            <td><c:out value="${ listeArticles.nbetiquette }" /></td>
-                                            <td><c:out value="${ listeArticles.categorie }" /></td>
+                                            <td><c:out value="${  article.prixlog }" /></td>
+                                            <td><c:out value="${  article.prixven}" /></td>
+                                            <td><c:out value="${  article.delaicontrole }" /></td>
+                                            <td><c:out value="${  article.pcontrole }" /></td>
+                                            <td><c:out value="${  article.prochaincontrole }" /></td>
+                                            <td><c:out value="${  article.derniercontrole }" /></td>
+                                            <td><c:out value="${  article.nbetiquette }" /></td>
+                                            <td><c:out value="${  article.categorie }" /></td>
                                         </tr>
                                        
                                         </c:forEach>
