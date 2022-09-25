@@ -1,6 +1,9 @@
 package com.octest.servelets;
 
 import java.io.IOException;
+import java.sql.SQLException;
+
+import com.octest.dao.ArticleDaoImpl;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -21,6 +24,16 @@ public class ListerArticle extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+	
+		ArticleDaoImpl dao = new ArticleDaoImpl();
+		
+		try {			
+			request.setAttribute("listeArticles", dao.getAll()); // getAll renvoie une List<> d'articles
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.err.println(e.getClass().getName()+" : "+e.getMessage());
+		}
+		
 		this.getServletContext().getRequestDispatcher("/liste.jsp").forward(request, response);
 	}
 

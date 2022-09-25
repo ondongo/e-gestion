@@ -49,7 +49,7 @@
                             <thead>
                               <tr>
                                 <th scope="col">Nom</th>
-                                <th scope="col">Reference</th>
+                                <th scope="col">Referencess</th>
                                 <th scope="col">Defaut</th>
                                 <th scope="col">Prix d'achat</th>
                                 <th scope="col">Devise</th>
