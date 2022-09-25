@@ -28,6 +28,15 @@
                                             <th>Unité</th>
                                           
                                         </tr>
+
+                                        <!-- <tr>
+                                            
+                                            <td  style="width:45%">
+                                                <a name="" id="" class="btn btn-outline-success text-dark btn-xs" href="<?=WEB_URL?>/cours-classe/<?=$value->getId()?>" role="button">Cours</a>
+                                                <a name="" id="" class="btn btn-outline-warning text-dark btn-xs" href="<?=WEB_URL?>/classe-up/<?=$value->getId()?>" role="button">Edition</a>
+                                                <a name="" id="" class="btn btn-outline-danger text-dark" href="#" role="button">Supprimer</a>
+                                            </td>
+                                        </tr> -->
                                     </thead>
                                     <tfoot>
                                         <tr>
