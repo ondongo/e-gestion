@@ -131,7 +131,7 @@ public class ArticleDaoImpl implements ArticleDAO{
 			String sql = "insert into egestion.article (idref, libelle, categorie, prixlog, prixven, delaicontrole, pcontrole, prochaincontrole, derniercontrole, nbetiquette) values (?,?,?,?,?,?,?,?,?,?)";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, t.getIdRef());
-			ps.setString(2, t.getIdRef());
+			ps.setString(2, t.getLibelle());
 			ps.setString(3, String.valueOf(t.getCategorie()));
 			ps.setInt(4, t.getPrixLogistique());
 			ps.setInt(5, t.getPrixVente());
