@@ -13,24 +13,30 @@
                         <div class="form-row align-items-center">
                           
                           <div class="form-group col-md-6">
-                          	<label for="categorie" >Catégorie</label>
-                            <input type="text" class="form-control" name="categorie" placeholder="Saisissez une catégorie...">
+                          	<label for="categorie" >Catégorie</label><br/>
+                            <select class="form-select" name="categorie">
+                            	<option value=""> -- Choisissez une catégorie -- </option>
+                            	<option value="VOITURE">Voiture </option>
+                            	<option value="PRODUITS_ALIMENTAIRES"> Produits alimentaires</option>
+                                <option value="PRODUITS_PHARMACEUTIQUES">Produits pharmaceutiques</option>
+                            
+                            </select>
                           </div>
                           
-                          <div class="form-group col-md-4">
+                          <!-- <div class="form-group col-md-4">
                             <label for="customRange3">id</label>
                             <div class="col-sm-10">
                             	<input type="number" id="" name="" min="1" max="100">
                             </div>
-                          </div>
+                          </div> -->
 
-                          <div class="form-group col-md-2">
+                          <!-- <div class="form-group col-md-2">
                             <div class="form-check">
                                 <div class="col-sm-10">
                                 	<input class="form-check-input" type="checkbox" id="gridCheck">
                                 </div>
                             </div>
-                          </div>
+                          </div> -->
  
 
                         </div>
@@ -45,7 +51,7 @@
                           <input type="text" class="form-control" name="idref" id="idref" placeholder="Saisissez une réference... ">
                         </div>
                         
-                        <table class="table">
+                        <!-- <table class="table">
                             <thead>
                               <tr>
                                 <th scope="col">Nom</th>
@@ -59,7 +65,7 @@
                             </thead>
                             <tbody>
                               <tr>
-                                <!-- <th scope="row">1</th> -->
+                                <th scope="row">1</th>
                                 <td>Samsung/San</td>
                                 <td>GalaxyS7White</td>
                                 <td><div class="form-check">
@@ -77,20 +83,20 @@
                                   <td>Boite</td>
                               </tr>
                               <tr>
-                                <!-- <th scope="row">2</th> -->
+                                <th scope="row">2</th>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                               </tr>
                               <tr>
-                                <!-- <th scope="row">3</th> -->
+                                <th scope="row">3</th>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                               </tr>
                             </tbody>
                           </table>
-
+ -->
                           
                             <div class="form-row">
                               <div class="col-md-4 mb-3">
