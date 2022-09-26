@@ -138,13 +138,7 @@
                             
 
 							
-                                  <div class="col-md-4 mb-3">
-                                    <label for="validationDefaultUsername">Control</label>
-                                    <div class="input-group">
-                                      
-                                      <input type="date" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                                    </div>
-                                  </div>
+                                  <
 							
                                  
      
