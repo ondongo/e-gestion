@@ -26,33 +26,23 @@
                                             <th >Libellé</th>
                                             <th >Categorie</th>
                                             <!-- <th >Prix Log</th> -->
-                                            <th >Prix Ven</th>
+                                            <th >Prix Vente</th>
                                             <th >Delai C.</th>
                                             <th>P. Controle</th>
-                                            <th>Prochaon C.</th>
+                                            <th>Prochain C.</th>
                                             <!-- <th>Dernier C.</th> -->
                                             <th>Nb. Etiquettes</th>
                                           
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Réference</th>
-                                            <th >Libellé</th>
-                                            <th >Categorie</th>
-                                            <!-- <th >Prix Log</th> -->
-                                            <th >Prix Ven</th>
-                                            <th >Delai C.</th>
-                                            <th>P. Controle</th>
-                                            <th>Prochaon C.</th>
-                                           <!--  <th>Dernier C.</th> -->
-                                            <th>Nb. Etiquettes</th>
-                                        </tr>
-                                    </tfoot>
                                     <tbody>
-                                    	<%-- <% List<Article> liste = (ArrayList<Article>) request.getAttribute("listeArticles"); %> --%>
-                                    	<% List<Article> listeArticles = (ArrayList<Article>) request.getAttribute("listeArticles"); %>
-                                        <c:forEach items="${ listeArticles }" var="article">
+                                    	<% List<Article> listeArticles = (List<Article>) request.getAttribute("listeArticles"); 
+                                    		String test = (String) request.getAttribute("Test");
+                                    	%>
+                                    	<c:out value="${ test }"></c:out> 
+                                    	<%-- ArrayList<Article> listeA = new ArrayList<Article>();
+                                    	listeA = (ArrayList<Article>) request.getAttribute("listeArticles"); --%>
+                                        <c:forEach var="article" items="${ listeArticles }" >
 	                                        <tr>
 	                                        	<td><c:out value="${ article.idref }"/></td>
 	                                        	<td><c:out value="${ article.libelle }"/></td>
@@ -67,6 +57,20 @@
 	                                        </tr>
                                         </c:forEach>
                                     </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Réference</th>
+                                            <th >Libellé</th>
+                                            <th >Categorie</th>
+                                            <!-- <th >Prix Log</th> -->
+                                            <th >Prix Vente</th>
+                                            <th >Delai C.</th>
+                                            <th>P. Controle</th>
+                                            <th>Prochain C.</th>
+                                           <!--  <th>Dernier C.</th> -->
+                                            <th>Nb. Etiquettes</th>
+                                        </tr>
+                                    </tfoot> 
                                 </table>
                             </div>
                         </div>
