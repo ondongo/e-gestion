@@ -2,7 +2,9 @@ package com.octest.servelets;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
 
+import com.octest.beans.Article;
 import com.octest.dao.ArticleDaoImpl;
 
 import jakarta.servlet.ServletException;
@@ -26,9 +28,12 @@ public class ListerArticle extends HttpServlet {
 		// TODO Auto-generated method stub
 	
 		ArticleDaoImpl dao = new ArticleDaoImpl();
+		String s = "The String with the data i want inside";
 		
 		try {			
+			// List<Article> listeArticles = dao.getAll();
 			request.setAttribute("listeArticles", dao.getAll()); // getAll renvoie une List<> d'articles
+			request.setAttribute("Test", s);
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.err.println(e.getClass().getName()+" : "+e.getMessage());
