@@ -134,9 +134,10 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Dernier(e)s</h6>
-                        <a class="collapse-item" href="">Jour(s) </a>
-                        <a class="collapse-item" href="">Semaines</a>
-                        <a class="collapse-item" href="">Années</a>
+                        <a class="collapse-item" href="vide.jsp">Jour(s) </a>
+                        <a class="collapse-item" href="vide.jsp">Semaines</a>
+                        <a class="collapse-item" href="vide.jsp">Mois</a>
+                        <a class="collapse-item" href="vide.jsp">Années</a>
                         
                     </div>
                 </div>
