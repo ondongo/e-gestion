@@ -7,15 +7,15 @@ import java.sql.SQLException;
 public class ConnectDB {
 	
     //pc gloire
-//	private static final String URL = "jdbc:postgresql://localhost:5432/rmedtech" ;
-//    private static final String USER = "postgres" ;
-//    private static final String PASSWORD = "root" ;
+	private static final String URL = "jdbc:postgresql://localhost:5432/rmedtech" ;
+  private static final String USER = "postgres" ;
+  private static final String PASSWORD = "root" ;
     
     //pc moustapha
-    private static final String URL = "jdbc:postgresql://localhost/rmedtech" ;
-    private static final String USER = "postgres" ;
-    private static final String PASSWORD = "passer" ;
-    private static Connection conn ;
+    //private static final String URL = "jdbc:postgresql://localhost/rmedtech" ;
+   // private static final String USER = "postgres" ;
+  //  private static final String PASSWORD = "passer" ;
+   private static Connection conn ;
     
     public static Connection getConnexion(){ 
         // PATTERN SINGLETON permet de renvoyer une unique instance de la classe
@@ -30,6 +30,7 @@ public class ConnectDB {
             } catch (SQLException | ClassNotFoundException e){
             	e.printStackTrace();
                 System.err.println(e.getClass().getName()+": "+e.getMessage());
+                System.out.println("Echec");
             }
         }
         return conn ;

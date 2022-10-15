@@ -7,14 +7,15 @@
     <div id="wrapper">
 
         <!-- Bar en bleu -->
-        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar"> 
+        <ul class="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar"> 
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fa-brands fa-java"></i>
+                <div class="sidebar-brand-icon ">
+                  <img 
+     src="img/Logo.png" width="100%">
                 </div>
-                <div class="sidebar-brand-text mx-3">Ges_Stock</div>
+                
             </a>
 
             <!-- Divider -->
@@ -188,7 +189,7 @@
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Rechercher l'article..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-success" type="button">
+                                <button class="btn btn-primary" type="button">
                                     <i class="fas fa-search fa-sm"></i>
                                 </button>
                             </div>
@@ -233,6 +234,60 @@
 
 
 
+					<li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                
+                                <span >Stock</span>
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <!-- Coumpteur - Messages -->
+                               
+                            </a></li>
+    
+                            
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                
+                                <span >Approvisionement</span>
+                                <i class="fas fa-bell fa-fw"></i>
+                                <span class="badge badge-warning badge-counter">3+</span>
+                                <!-- Coumpteur - Messages -->
+                                
+                            </a></li>
+                            
+    
+                            
+                        
+    
+    
+                            
+    
+                        
+    
+                        <!-- Nav Item - Notification Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                
+                                <!-- Compteur - Alerts -->
+                                
+                                
+                                <span>Rapport</span>
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <span class="badge badge-warning badge-counter">7</span>
+                            </a>
+                            
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                       
+
+
 
 
 
@@ -246,7 +301,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
                                 <!-- Compteur - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
+                                <span class="badge badge-warning badge-counter">3+</span>
                             </a>
                         </li>
 
@@ -260,7 +315,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-envelope fa-fw"></i>
                                 <!-- Coumpteur - Messages -->
-                                <span class="badge badge-danger badge-counter">7</span>
+                                <span class="badge badge-warning badge-counter">7</span>
                             </a></li>
 
 
@@ -299,6 +354,14 @@
                             </div>
                         </li>
 
+
+						 <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle"  role="button"
+                                href="test.html">
+                                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                             
+                               
+                            </a>
 
 
 
