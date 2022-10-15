@@ -34,7 +34,7 @@ version="5.0">
         <servlet-class>com.octest.servelets.Index</servlet-class>
     </servlet>
       <servlet-mapping>
-        <servlet-name>/Index</servlet-name>
+        <servlet-name>Index</servlet-name>
         <url-pattern>/Index</url-pattern>
     </servlet-mapping>
     
@@ -46,7 +46,7 @@ version="5.0">
         <servlet-class>com.octest.servelets.Reglage</servlet-class>
     </servlet>
       <servlet-mapping>
-        <servlet-name>/Reglage</servlet-name>
+        <servlet-name>Reglage</servlet-name>
         <url-pattern>/Reglage</url-pattern>
     </servlet-mapping>
     
