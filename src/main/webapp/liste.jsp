@@ -55,8 +55,27 @@
 	                                        	<%-- <td><c:out value="${ article.dernierControle }"/></td> --%>
 	                                        	<td><c:out value="${ article.nbreEtiquette }"/></td>
 	                                        </tr>
+	                                        
+	                                        
+	                                      
+	                                        
+	                                        
                                             
                                         </c:forEach>
+                                        
+                                        
+                                          <tr> 
+	                                        <td>test</td>
+	                                         <td>tet</td>
+	                                          <td>tet</td>
+	                                           <td>test</td>
+	                                            <td>test</td>
+	                                             <td>test</td>
+	                                              <td>test</td>
+	                                              <td>test</td>
+                                                 
+	                                              
+	                                              </tr>
                                     </tbody>
                                  
                                 </table>

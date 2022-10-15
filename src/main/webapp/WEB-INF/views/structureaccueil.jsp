@@ -53,7 +53,7 @@
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                      <h6 class="collapse-header">Voir</h6> 
-                     <a class="collapse-item" href="liste.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i></a>
+                 
                          <h6 class="collapse-header">Administrations</h6> 
                         <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
                            </a>
@@ -106,7 +106,7 @@
             </div>
     
             <li class="nav-item">
-                <a class="nav-link" href="vide.jsp">
+                <a class="nav-link" href="liste.jsp">
                     <i class="fa-solid fa-warehouse"></i>
                     <span>Entrepôts</span></a>
             </li>
@@ -238,25 +238,28 @@
     
     
     
-    
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="add.jsp" >
                                 
-                                <span >Stock</span>
-                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <span style="margin-right:5px">Ajouter </span>
+                                
+                                <i class="fa-solid fa-circle-plus fa-2x" style="color:#ffc107;"></i>
                                 <!-- Coumpteur - Messages -->
                                
                             </a></li>
+    
+
+
+					
     
                             
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 
-                                <span >Approvisionement</span>
-                                <i class="fas fa-bell fa-fw"></i>
-                                <span class="badge badge-warning badge-counter">3+</span>
+                                <span >Alert</span>
+                                <i class="fas fa-bell fa-fw fa-2x"></i>
+                                <span class="badge badge-warning badge-counter" style="font-size:16px;">3+</span>
                                 <!-- Coumpteur - Messages -->
                                 
                             </a></li>
@@ -279,8 +282,8 @@
                                 
                                 
                                 <span>Rapport</span>
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <span class="badge badge-warning badge-counter">7</span>
+                                <i class="fas fa-envelope fa-fw fa-2x"></i>
+                                <span class="badge badge-warning badge-counter " style="font-size:16px;" >7</span>
                             </a>
                             
                         </li>
@@ -291,32 +294,37 @@
                         
                         
                        
-                        </li>
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
                         
-    
-    
-    
-    
+
+                        
+
+
+
+
+                        
+
+
+
+
                         <div class="topbar-divider d-none d-sm-block"></div>
-    
-    
+
+
                         
-    
+
                         <!--Profil -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="vide.jsp" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  <img class="img-profile rounded-circle"
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rassoul Ndiaye</span>
+                                <img class="img-profile rounded-circle"
                                     src="img/undraw_profile_2.svg">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rassoul  <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                
-                                </span>
-                              
                             </a>
                             <!--  Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -325,30 +333,23 @@
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="reglage.jsp">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Paramètres
                                 </a>
                               
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="authentification.jsp" >
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                    Deconnexion
                                 </a>
                             </div>
                         </li>
-                        
+
+    
                         
                         
     
-                        <!-- parametre icon -->
-                          <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle"  role="button"
-                                href="reglage.jsp">
-                                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
-                             
-                               
-                            </a>
     
     
     

@@ -13,7 +13,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
                 <div class="sidebar-brand-icon ">
                   <img 
-     src="img/Logo.png" width="100%">
+     src="img/Logo.png" width="110%">
                 </div>
                 
             </a>
@@ -38,6 +38,11 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
 
+           <li class="nav-item">
+                <a class="nav-link" href="liste.jsp">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <span>Entrepôts</span></a>
+            </li>
            
 
             <li class="nav-item">
@@ -48,14 +53,8 @@
                 </a>
                 <div id="collapseArticle" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Voir</h6> 
-                     <a class="collapse-item" href="liste.jsp">Liste <i class="fa-sharp fa-solid fa-cart-plus"></i>
-                           </a>
-                         <h6 class="collapse-header">Administrations</h6> 
-                        <a class="collapse-item" href="add.jsp">Ajouter <i class="fa-sharp fa-solid fa-cart-plus"></i>
-                           </a>
-                        <a class="collapse-item" href="edit.jsp">Modifier</a>
-                        <a class="collapse-item" href="delete.jsp">Supprimer <i class="fa-solid fa-trash"></i></a>
+      
+                      
                 
                           <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Liaisons </h6>
@@ -74,6 +73,24 @@
 
 
 
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Magasins
+            </div>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="vide.jsp">
+                    <i class="fa-solid fa-truck-field"></i>
+                    <span>Fournisseurs</span></a>
+            </li>
+            
+            
+            
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -92,26 +109,6 @@
                     
                     </div>
                 </div>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Magasins
-            </div>
-
-            <li class="nav-item">
-                <a class="nav-link" href="vide.jsp">
-                    <i class="fa-solid fa-warehouse"></i>
-                    <span>Entrepôts</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="vide.jsp">
-                    <i class="fa-solid fa-truck-field"></i>
-                    <span>Fournisseurs</span></a>
             </li>
 
             
@@ -236,23 +233,27 @@
 
 
 					<li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="add.jsp" >
                                 
-                                <span >Stock</span>
-                                <i class="fa-solid fa-arrow-trend-up"></i>
+                                <span style="margin-right:5px">Ajouter </span>
+                                
+                                <i class="fa-solid fa-circle-plus fa-2x" style="color:#ffc107;"></i>
                                 <!-- Coumpteur - Messages -->
                                
                             </a></li>
+    
+
+
+					
     
                             
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 
-                                <span >Approvisionement</span>
-                                <i class="fas fa-bell fa-fw"></i>
-                                <span class="badge badge-warning badge-counter">3+</span>
+                                <span >Alert</span>
+                                <i class="fas fa-bell fa-fw fa-2x"></i>
+                                <span class="badge badge-warning badge-counter" style="font-size:16px;">3+</span>
                                 <!-- Coumpteur - Messages -->
                                 
                             </a></li>
@@ -275,8 +276,8 @@
                                 
                                 
                                 <span>Rapport</span>
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <span class="badge badge-warning badge-counter">7</span>
+                                <i class="fas fa-envelope fa-fw fa-2x"></i>
+                                <span class="badge badge-warning badge-counter " style="font-size:16px;" >7</span>
                             </a>
                             
                         </li>
@@ -296,28 +297,12 @@
 
                         
 
-                        <!-- Nav Item - Notification Alerts -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="vide.jsp" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <!-- Compteur - Alerts -->
-                                <span class="badge badge-warning badge-counter">3+</span>
-                            </a>
-                        </li>
+                        
 
 
 
 
-
-                        <!-- Nav Item - Messages -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="vide.jsp" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <!-- Coumpteur - Messages -->
-                                <span class="badge badge-warning badge-counter">7</span>
-                            </a></li>
+                        
 
 
 
@@ -342,27 +327,19 @@
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="reglage.jsp">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Paramètres
                                 </a>
                               
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="authentification.jsp" >
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                    Deconnexion
                                 </a>
                             </div>
                         </li>
 
-
-						 <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle"  role="button"
-                                href="reglage.jsp">
-                                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
-                             
-                               
-                            </a>
 
 
 

@@ -143,7 +143,7 @@
                         </div>
                         
                         <div>
-	                        <button type="submit" class="btn btn-success">Soumettre</button>
+	                        <button type="submit" class="btn btn-primary">Soumettre</button>
                         </div>
                      
                       </form>
