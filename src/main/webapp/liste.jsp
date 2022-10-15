@@ -55,22 +55,10 @@
 	                                        	<%-- <td><c:out value="${ article.dernierControle }"/></td> --%>
 	                                        	<td><c:out value="${ article.nbreEtiquette }"/></td>
 	                                        </tr>
+                                            
                                         </c:forEach>
                                     </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Réference</th>
-                                            <th >Libellé</th>
-                                            <th >Categorie</th>
-                                            <!-- <th >Prix Log</th> -->
-                                            <th >Prix Vente</th>
-                                            <th >Delai C.</th>
-                                            <th>P. Controle</th>
-                                            <th>Prochain C.</th>
-                                           <!--  <th>Dernier C.</th> -->
-                                            <th>Nb. Etiquettes</th>
-                                        </tr>
-                                    </tfoot> 
+                                 
                                 </table>
                             </div>
                         </div>
