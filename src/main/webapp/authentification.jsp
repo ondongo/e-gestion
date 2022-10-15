@@ -1,17 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-    <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+   
 
 
-    <%@ include file="WEB-INF/views/structure.jsp" %>
+ <%@ include file="./WEB-INF/views/header.jsp" %>
+    
+    
+    
     <body id="page-top">
-        <body class="bg-gradient-secondary">
+        <body class="bg-gradient-primary">
         
             <div class="container">
         
-                <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card o-hidden border-0 shadow-lg my-5" style="margin-bottom:20px;">
                     <div class="card-body p-0">
                        
                         <div class="row">
@@ -70,4 +72,26 @@
             </div>
         
   
- <%@include file="WEB-INF/views/footer.jsp" %>
+  <!-- Bootstrap JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Graphe -->
+     <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- graphe -->
+     <script src="js/demo/chart-area-demo.js"></script>
+     <script src="js/demo/chart-pie-demo.js"></script>
+
+     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+ 
+     <!-- table dynamique -->
+     <script src="js/demo/datatables-demo.js"></script>
+ 
+    
+    <script src="js/principale.js"></script>
+
+</body>
+
+</html>
