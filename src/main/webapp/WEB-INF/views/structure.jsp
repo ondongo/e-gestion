@@ -357,7 +357,7 @@
 
 						 <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle"  role="button"
-                                href="test.html">
+                                href="reglage.jsp">
                                 <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
                              
                                
