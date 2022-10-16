@@ -51,8 +51,8 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small text-danger" href="forgot-password.html">Mot de passe oublié?</a>
-                                         <a class="small text-danger" href="forgot-password.html">S'inscrire?</a>
+                                        <a class="small text-danger" href="forgot-password.html">Mot de passe oublié ?</a>
+                                         <a class="small text-danger" href="forgot-password.html">S'inscrire ?</a>
                                     </div>
                                     <!-- <div class="text-center">
                                         <a class="small" href="login.html">Already have an account? Login!</a>
