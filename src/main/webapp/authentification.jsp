@@ -28,7 +28,7 @@
                                             
                                             <div class="col-sm-12 mb-3 mb-sm-0">
                                             <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                                placeholder="Email ">
+                                                placeholder="Login ">
                                         </div>
                                         
                                         
