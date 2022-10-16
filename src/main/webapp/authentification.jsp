@@ -9,7 +9,7 @@
     
     
     <body id="page-top">
-        <body class="bg-gradient-primary">
+        <body class="bg-gradient-white">
         
             <div class="container">
         
@@ -21,44 +21,38 @@
                             <div class="col-lg-7">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">connnects</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Authentification</h1>
                                     </div>
                                     <form class="user">
                                         <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                                    placeholder="Prenom">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                                    placeholder="Nom">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
+                                            
+                                            <div class="col-sm-12 mb-3 mb-sm-0">
                                             <input type="email" class="form-control form-control-user" id="exampleInputEmail"
                                                 placeholder="Email ">
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                        
+                                        
+                                        </div>
+                                        
+                                         <div class="form-group row">
+                                         
+                                          <div class="col-sm-12 mb-3 mb-sm-0">
                                                 <input type="password" class="form-control form-control-user"
                                                     id="exampleInputPassword" placeholder="Password">
                                             </div>
-                                            
-                                        </div>
+                                         </div>
+                                       
+                                     
                                         <a href="index.jsp" class="btn btn-primary btn-user btn-block">
                                             Enregistrer
                                         </a>
-                                        <hr>
-                                        <a href="index.jsp" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i>  Google
-                                        </a>
-                                        <a href="index.jsp" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i>  Facebook
-                                        </a>
+                                       
+                                      
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Mot de passe oublié?</a>
+                                        <a class="small text-danger" href="forgot-password.html">Mot de passe oublié?</a>
+                                         <a class="small text-danger" href="forgot-password.html">S'inscrire?</a>
                                     </div>
                                     <!-- <div class="text-center">
                                         <a class="small" href="login.html">Already have an account? Login!</a>
