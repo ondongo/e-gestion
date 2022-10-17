@@ -28,7 +28,7 @@ public class ListerArticle extends HttpServlet {
 		// TODO Auto-generated method stub
 	
 		ArticleDaoImpl dao = new ArticleDaoImpl();
-		String s = "The String with the data i want inside";
+		String s = "";
 		
 		try {			
 			// List<Article> listeArticles = dao.getAll();
