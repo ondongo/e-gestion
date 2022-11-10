@@ -36,7 +36,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    	<% List<Article> listeArticles = (List<Article>) request.getAttribute("listeArticles"); 
+                                    	<%  ArrayList<Article> listeArticles = (ArrayList<Article>) request.getAttribute("listeArticles"); 
                                     		String test = (String) request.getAttribute("Test");
                                     	%>
                                     	<c:out value="${ test }"></c:out> 
