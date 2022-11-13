@@ -66,6 +66,11 @@ version="5.0">
     </servlet-mapping>
     
     
+    
+    
+    
+    
+    
 	<welcome-file-list>
 		<welcome-file>index.htm</welcome-file>
 		<welcome-file>index.html</welcome-file>
@@ -73,6 +78,17 @@ version="5.0">
 		<welcome-file>authentification.jsp</welcome-file>
 	</welcome-file-list>
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<jsp-config>
 		<jsp-property-group>
 	      <url-pattern>*.jsp</url-pattern>
